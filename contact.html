@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title> Contact</title>
+    <link rel="shortcut icon" href="./img/baseball-and-bat-as-a-favicon.png">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.production.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+
+<body>
+    <header class="page-header">
+        <img src="https://placeholder.co/200x70" alt="logo" class="page-header_item">
+        <!-- this will be my pages logo -->
+        <nav class="main-navigation page-header_item">
+            <ul role="menubar" class="navigation-list">
+                <li role="presentation">
+                    <a href="index.html" role="menuitem"
+                        class="navigation-list_item navigation-list_item--active">Home</a>
+                </li>
+                <li role="presentation">
+                    <a href="about.html" role="menuitem" class="navigation-list_item">About</a>
+                </li>
+                <li role="presentation">
+                    <a href="contact.html" role="menuitem" class="navigation-list_item">Contact</a>
+                </li>
+                <li role="presentation">
+                    <a href="work.html" role="menuitem" class="navigation-list_item navigation-list_item--active">Work</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+<hr>
+    <h1>Contact</h1>
+
+    <main>
+        <h2>Nolan McGonigle</h2>
+        <p>12435 Belton</p>
+        <p>South Carolina</p>
+        <br>
+        <a href="tel:864-940-8025">Tel:864-940-8025</a>
+        <br>
+        <a href="mailto:nrmcgonigle21@gmail.com">nrmcgonigle21@gmail.com</a>
+        <br>
+        <a href="skype:hello.nolanmcgonigle"> skype.nolanmcgonigle</a>
+        <br>
+        <!-- will put a skype link after making a skype -->
+        <a href="mailto:nrmcgonigle21@gmail.com">Contact me</a>
+
+
+        <form action="" method="post" id="contact-form">
+            <label class="standard-label" for="contact-email">Email: </label>
+            <input type="email" id="contact-email" required>
+
+            <label class="standard-label" for="contact-telephone">Telephone: </label>
+            <input type="tel" id="contact-telephone">
+
+            <label class="standard-label" for="user-input">Message: </label>
+            <textarea id="user-input" maxlength="240"></textarea>
+            <input type="submit" value="Send message">
+        </form>
+    </main>
+
+    <footer class="page-footer">
+        <p>Find me on</p>
+        <div class="social-media">
+            <img src="img/iconmonstr-github-1.svg" alt="Github">
+            <img src="img/icons8-twitter.svg" alt="Twitter">
+            <img src="img/icons8-linkedin.svg" alt="LinkedIn">
+        </div>
+        <a href="#">Back to top</a>
+    </footer>
+
+    <script src="js/tota11y.min.js"></script>
+</body>
+
+</html>
