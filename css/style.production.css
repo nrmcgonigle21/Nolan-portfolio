@@ -12,11 +12,17 @@ body {
 h1 {
     font-size: 30px;
     font-weight: 700;
+    text-align: center;
 }
 
 h2 {
     font-size: 24px;
     font-weight: 650;
+    text-align: center;
+}
+
+.centered-table {
+    margin: auto;
 }
 
 a {
@@ -233,7 +239,7 @@ grid-row-end: 3;
         grid-row: auto/auto;
     }
     h1 {
-        font-size: 22px;
+        font-size: 30px;
     }
 }
 
@@ -335,3 +341,4 @@ to {
     -webkit-animation: 34s cloud-move-reverse infinite alternate linear;
             animation: 34s cloud-move-reverse infinite alternate linear;
 }
+

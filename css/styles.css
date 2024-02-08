@@ -42,13 +42,6 @@ h2 {
     font-weight: 650;
 }
 
-.expdiv {
-    margin: auto;
-    width: 50%;
-    padding: 10px;
-    border: 2px black;
-}
-
 a {
     color: var(--link-color);
 }
@@ -256,6 +249,9 @@ to {
     animation: 34s cloud-move-reverse infinite alternate linear;
 }
 
+.centered-table{
+    margin: auto;
+}
 
 
 
